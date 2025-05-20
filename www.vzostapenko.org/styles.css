@@ -8,7 +8,7 @@
 body {
     font-family: 'Segoe UI', Arial, sans-serif;
     line-height: 1.6;
-    background-color: #FFF8E7;
+    background-color: #f5f7fa;
     color: #333;
     height: 100vh;
     overflow: hidden;
@@ -28,95 +28,106 @@ h1, h2, h3 {
     display: flex;
     height: 100vh;
     width: 100%;
-    background-color: #f3e6cb;
+    background-color: #e3ecfb;
 }
 
 /* Sidebar Styles */
 .sidebar {
-    width: 220px;
-    background-color: rgb(97, 144, 216);
-    padding: 20px;
+    width: 300px;
+    background-color: #e8eef7;
+    padding: 30px;
     display: flex;
     flex-direction: column;
-    border-right: 1px solid #ddd;
+    border-right: 1px solid #d1d9e6;
 }
 
 .profile-section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .profile-image {
     width: 100px;
     height: 100px;
-    border-radius: 50%; /* Makes the image circular */
+    border-radius: 50%;
     object-fit: cover;
     margin-bottom: 15px;
-    border: 3px solid #fff;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border: 4px solid #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
 }
 
 .youtube-btn {
-    background-color: #f00;
+    background-color: #f03e3e;
     color: white;
-    padding: 6px 12px;
-    border-radius: 4px;
-    font-size: 14px;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 16px;
     text-align: center;
-    transition: background-color 0.2s;
-    width: 100px;
+    transition: all 0.3s ease;
+    width: 120px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    box-shadow: 0 2px 6px rgba(240, 62, 62, 0.3);
 }
 
 .youtube-btn:hover {
-    background-color: #cc0000;
+    background-color: #e03131;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(240, 62, 62, 0.4);
 }
-
 .student-message {
-    background-color: #f9f9f9;
-    padding: 15px;
-    border-radius: 5px;
-    margin-top: 20px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
     direction: rtl;
     text-align: right;
+    flex-grow: 1;
 }
 
 .student-message h3 {
-    color: #444;
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 8px;
-    margin-bottom: 10px;
-    font-size: 16px;
+    color: #3b4863;
+    border-bottom: 2px solid #e8eef7;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    font-size: 18px;
 }
 
 .student-message p {
-    font-size: 14px;
-    margin-bottom: 8px;
+    font-size: 16px;
+    margin-bottom: 12px;
+    line-height: 1.7;
+    color: #4a5568;
 }
 
 /* Main Content Styles */
 .main-content {
     flex: 1;
-    padding: 20px;
+    padding: 40px;
     overflow: auto;
 }
 
 .header {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .header h1 {
-    font-size: 24px;
-    color: #333;
+    font-size: 28px;
+    color: #2d3748;
+    letter-spacing: 0.5px;
 }
 
 .hebrew-title {
     text-align: center;
-    font-size: 24px;
-    margin-bottom: 20px;
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #2d3748;
+    letter-spacing: 0.5px;
 }
 
 /* Content Layout based on sketch */

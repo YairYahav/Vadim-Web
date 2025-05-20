@@ -1,82 +1,186 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-   "http://www.w3.org/TR/html4/loose.dtd">
-
-<html>
-
-<!-- Mirrored from www.vzostapenko.org/wissenschaft.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 19 May 2025 22:10:21 GMT -->
-<head ALIGN=CENTER>
-Vadim Zeev Ostapenko
-
-<meta name="NetsparkQuiltingResult" total-length="902" removed="0" rules-found="w2341,w7220,w6760" />
-
-<meta name="NetsparkQuiltingResult" total-length="1261" removed="0" rules-found="w2339,w7164,w4438,w6739" />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vadim Zeev Ostapenko - Publications</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f5f7fa;
+            color: #2d3748;
+            padding: 40px 20px;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        h1 {
+            font-size: 32px;
+            margin-bottom: 20px;
+            color: #2d3748;
+            position: relative;
+            display: inline-block;
+        }
+        
+        h1:after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 3px;
+            background-color: #4a6da7;
+        }
+        
+        .publications-list {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+        }
+        
+        .publication-item {
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.05);
+            padding: 25px;
+            border-left: 4px solid #4a6da7;
+            transition: all 0.3s ease;
+        }
+        
+        .publication-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        .publication-title {
+            font-size: 20px;
+            margin-bottom: 15px;
+            color: #2d3748;
+        }
+        
+        .publication-title a {
+            color: #4a6da7;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        
+        .publication-title a:hover {
+            color: #3a5a8f;
+            text-decoration: underline;
+        }
+        
+        .publication-authors {
+            font-style: italic;
+            margin-bottom: 10px;
+            color: #4a5568;
+        }
+        
+        .publication-journal {
+            color: #718096;
+            font-weight: 500;
+        }
+        
+        .back-button {
+            display: inline-block;
+            margin-top: 40px;
+            background-color: #4a6da7;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+        
+        .back-button:hover {
+            background-color: #3a5a8f;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(74, 109, 167, 0.3);
+        }
+        
+        @media (max-width: 768px) {
+            .publication-item {
+                padding: 20px;
+            }
+        }
+    </style>
 </head>
-
-
 <body>
-
-<h2>
-<ul>
-<a href=cvor.pdf>Curriculum vitae</a>
-</h2>
-
-<h1 ALIGN=CENTER>
-Publications
-</h1>
-
-<h2>
-<ul>
-<li>
-<a href="http://arxiv.org/abs/2211.05406">
-Tate - Shafarevich groups and algebras </a> 
-(with B. Kunyavskii), 
-Int. J. Algebra Comput., Vol. 33 (2023), Issue No. 04, pp 819-836
-</h2>
-
-
-<h2>
-<ul>
-<li>
-<a href="WISSENSCHAFT/Baranov2020_Article_QuantumExceptionalGroupG2AndIt.pdf">
-Quantum Exceptional Group G2 and its Semisimple
-Conjugacy Classes </a> 
-(with A. Baranov and A. Mudrov), 
-Alg. and Rep. Theory, Vol. 23 (2020), pp 1827-1848
-</h2>
-
-<h2>
-<ul>
-<li>
-<a href="WISSENSCHAFT/ostap_romp.html">
-On U(g,r)-equivariant quantization of non-orbit homogeneous varieties</a>, 
-Rep. Math. Phys., Vol. 61 (2008), No.2, pp 301-308
-</h2>
-
-<h2>
-<ul>
-<li>
-<a href="http://arxiv.org/abs/math/0612397">
-Quantization of orbit bundles in gl*(n,C) </a> 
-(with A. Mudrov), 
-Israel J. Math., Vol. 172 (2009), No. 1, pp. 399-423
-</h2>
-
-<h2>
-<ul>
-<li>
-<a href="http://arxiv.org/abs/math/0210188">
-Equivariant quantization on quotients of simple Lie 
-groups by reductive subgroups of maximal rank </a>
-(with J. Donin), 
-Czechoslovak J. Phys.,
-Vol. 52 (2002), No. 11, pp. 1213-1218
-</h2>
-
-
-
+    <div class="container">
+        <header>
+            <h1>Publications</h1>
+        </header>
+        
+        <div class="publications-list">
+            <div class="publication-item">
+                <h2 class="publication-title">
+                    <a href="http://arxiv.org/abs/2211.05406" target="_blank">
+                        Tate - Shafarevich groups and algebras
+                    </a>
+                </h2>
+                <p class="publication-authors">with B. Kunyavskii</p>
+                <p class="publication-journal">Int. J. Algebra Comput., Vol. 33 (2023), Issue No. 04, pp 819-836</p>
+            </div>
+            
+            <div class="publication-item">
+                <h2 class="publication-title">
+                    <a href="WISSENSCHAFT/Baranov2020_Article_QuantumExceptionalGroupG2AndIt.pdf" target="_blank">
+                        Quantum Exceptional Group G2 and its Semisimple Conjugacy Classes
+                    </a>
+                </h2>
+                <p class="publication-authors">with A. Baranov and A. Mudrov</p>
+                <p class="publication-journal">Alg. and Rep. Theory, Vol. 23 (2020), pp 1827-1848</p>
+            </div>
+            
+            <div class="publication-item">
+                <h2 class="publication-title">
+                    <a href="WISSENSCHAFT/ostap_romp.html" target="_blank">
+                        On U(g,r)-equivariant quantization of non-orbit homogeneous varieties
+                    </a>
+                </h2>
+                <p class="publication-journal">Rep. Math. Phys., Vol. 61 (2008), No.2, pp 301-308</p>
+            </div>
+            
+            <div class="publication-item">
+                <h2 class="publication-title">
+                    <a href="http://arxiv.org/abs/math/0612397" target="_blank">
+                        Quantization of orbit bundles in gl*(n,C)
+                    </a>
+                </h2>
+                <p class="publication-authors">with A. Mudrov</p>
+                <p class="publication-journal">Israel J. Math., Vol. 172 (2009), No. 1, pp. 399-423</p>
+            </div>
+            
+            <div class="publication-item">
+                <h2 class="publication-title">
+                    <a href="http://arxiv.org/abs/math/0210188" target="_blank">
+                        Equivariant quantization on quotients of simple Lie groups by reductive subgroups of maximal rank
+                    </a>
+                </h2>
+                <p class="publication-authors">with J. Donin</p>
+                <p class="publication-journal">Czechoslovak J. Phys., Vol. 52 (2002), No. 11, pp. 1213-1218</p>
+            </div>
+        </div>
+        
+        <div style="text-align: center;">
+            <a href="index.html" class="back-button">Back to Homepage</a>
+        </div>
+    </div>
 </body>
-
-<!-- Mirrored from www.vzostapenko.org/wissenschaft.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 19 May 2025 22:10:21 GMT -->
 </html>
-
-
