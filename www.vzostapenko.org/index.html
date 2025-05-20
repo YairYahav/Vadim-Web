@@ -1,82 +1,122 @@
-<!DOCTYPE HTML>
-<HTML>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vadim Zeev Ostapenko - Homepage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="profile-section">
+                <a href="pic.html">
+                    <img src="pic.jpg" alt="Vadim Zeev Ostapenko" class="profile-image">
+                </a>
+                <a href="https://www.youtube.com/" target="_blank" class="youtube-btn">
+                    YouTube
+                </a>
+            </div>
+            
+            <!-- Student message - content loaded from external file -->
+            <div class="student-message" id="student-message">
+                <h3>ברכת תודה</h3>
+                <div id="message-content">
+                    <!-- This content will be loaded from message.txt -->
+                    <p>לכבוד המרצה ודים זאב אוסטפנקו, אנו מודים לך על ההשקעה והמסירות בהוראה. שיעוריך העשירו את עולמנו האקדמי והאישי.</p>
+                    <p>בהערכה רבה,<br>תלמידיך</p>
+                </div>
+            </div>
+        </div>
 
-<!-- Mirrored from www.vzostapenko.org/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 19 May 2025 22:10:18 GMT -->
+        <!-- Main Content -->
+        <div class="main-content">
+            <div class="header">
+                <h1>Homepage of Vadim Zeev Ostapenko</h1>
+            </div>
 
-<HEAD>
-	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=utf-8">
-	<TITLE></TITLE>
-	<META NAME="GENERATOR" CONTENT="OpenOffice.org 2.4  (Linux)">
-	<META NAME="CREATED" CONTENT="0;0">
-	<META NAME="CHANGED" CONTENT="20090803;1044300">
+            <div class="content-grid">
+                <h1 class="hebrew-title">ודים זאב אוסטפנקו</h1>
+                
+                <!-- Main content grid based on the sketch -->
+                <div class="content-layout">
+                    <!-- Top row -->
+                    <div class="top-row">
+                        <!-- CV links + Publications on right side -->
+                        <div class="right-column">
+                            <div class="box-row">
+                                <div class="small-box">
+                                    <a href="cvorh.pdf" class="link-box">
+                                        <h3 class="hebrew-text">קורות חיים</h3>
+                                    </a>
+                                </div>
+                                <div class="small-box">
+                                    <a href="cvor.pdf" class="link-box">
+                                        <h3>CV</h3>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="box-row">
+                                <div class="medium-box">
+                                    <a href="wissenschaft.html" class="link-box">
+                                        <h3>Publications</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Teaching (Horaah) - large box on left -->
+                        <div class="left-column">
+                            <div class="large-box">
+                                <a href="academiah.html" class="link-box">
+                                    <h2 class="hebrew-text">הוראה</h2>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Bottom row - Torah lessons and Memorial evening -->
+                    <div class="bottom-row">
+                        <div class="medium-box">
+                            <a href="shiurim.html" class="link-box">
+                                <h3 class="hebrew-text">שיעורים בתנ"ך</h3>
+                            </a>
+                        </div>
+                        <div class="medium-box">
+                            <a href="erev_hespedim.html" class="link-box">
+                                <h3 class="hebrew-text">ערב הספדים</h3>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-	<meta name="NetsparkQuiltingResult" total-length="952" removed="0"
-		rules-found="w3135,w2341,w7422,w7423,w7356,w7357,w7220" />
-
-	<meta name="NetsparkQuiltingResult" total-length="1434" removed="0"
-		rules-found="w3089,w2339,w7365,w7366,w7299,w7300,w7164" />
-</HEAD>
-
-<BODY LANG="en-US" DIR="LTR">
-
-
-
-	<H3>
-		<a href="pic.html">Photo</a>
-	</H3>
-
-
-	<h1 ALIGN=CENTER>
-		Homepage of Vadim Zeev Ostapenko
-	</h1>
-
-
-	<HR>
-
-
-	<H2>
-		<a href="cvor.pdf">CV</a>
-	</H2>
-
-	<H2>
-		<a href="wissenschaft.html">Publications</a>
-	</H2>
-
-
-
-
-
-	<HR>
-
-	<H1 ALIGN=CENTER>ודים זאב אוסטפנקו
-	</H1>
-
-	<H2 ALIGN=RIGHT>
-		<FONT FACE="Nachlieli CLM"><SPAN LANG="he-IL"><A HREF="cvorh.pdf">קורות חיים</A></SPAN></FONT>
-	</H2>
-
-
-	<H2 ALIGN=RIGHT>
-		<FONT FACE="Nachlieli CLM"><SPAN LANG="he-IL"><A HREF="academiah.html">הוראה</A></SPAN></FONT>
-	</H2>
-
-
-	<H2 ALIGN=RIGHT>
-		<FONT FACE="Nachlieli CLM"><SPAN LANG="he-IL"><A HREF="shiurim.html">שיעורים בתנ"ך מפיו של הרב שלומי אלדר
-					שליט"א</A></SPAN></FONT>
-	</H2>
-
-
-	<H2 ALIGN=RIGHT>
-		<FONT FACE="Nachlieli CLM"><SPAN LANG="he-IL"><A HREF="erev_hespedim.html">ערב הספדים על מו"ר הרב שמחה קוק
-					זצ"ל</A></SPAN></FONT>
-	</H2>
-
-
-
-
-</BODY>
-
-<!-- Mirrored from www.vzostapenko.org/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 19 May 2025 22:10:20 GMT -->
-
-</HTML>
+    <script>
+        // Function to load the message content from an external file
+        // This allows for easy editing of the message without changing the HTML
+        function loadMessageContent() {
+            // This is a placeholder. In a real implementation, you would 
+            // use fetch() to load content from a file like "message.txt"
+            // For now, we'll use the default content already in the HTML
+            
+            // Example of how to load from a file (uncomment to use):
+            
+            fetch('message.txt')
+                .then(response => response.text())
+                .then(text => {
+                    document.getElementById('message-content').innerHTML = text;
+                })
+                .catch(error => {
+                    console.error('Error loading message:', error);
+                });
+           
+        }
+        
+        // Call the function when the page loads
+        window.onload = loadMessageContent;
+    </script>
+</body>
+</html>
