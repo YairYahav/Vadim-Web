@@ -5,6 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>הוראה - Vadim Zeev Ostapenko</title>
     <link rel="stylesheet" href="shiurim.css">
+    <style>
+        /* New styles for image links */
+        .image-link-container {
+            height: calc(100% - 60px);
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .full-width-image {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+            border-radius: 5px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .image-link-container a {
+            display: block;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .image-link-container a:hover .full-width-image {
+            transform: scale(1.03);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        /* Cursor change on hover to indicate it's clickable */
+        .image-link-container a:hover {
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
@@ -74,9 +111,11 @@
             <div class="course-row">
                 <!-- Greek Letters -->
                 <div class="course-card">
-                    <h2 class="course-title">Table of Greek Letters</h2>
-                    <div class="course-buttons">
-                        <a href="ACADEMIA/greek_alphabet.pdf" class="course-btn">Greek Letters (Prepared by Rony Byalsky)</a>
+                    <h2 class="course-title">Table of Greek Letters (Prepared by Rony Byalsky)</h2>
+                    <div class="image-link-container">
+                        <a href="ACADEMIA/greek_alphabet.pdf">
+                            <img src="greekalphabet.jpg" alt="Greek Letters" class="full-width-image">
+                        </a>
                     </div>
                 </div>
                 
@@ -95,8 +134,10 @@
                 <!-- YouTube Link -->
                 <div class="course-card">
                     <h2 class="course-title">ערוץ יוטיוב</h2>
-                    <div class="course-buttons">
-                        <a href="https://www.youtube.com/@vadimostapenko5063" target="_blank" class="course-btn video">צפה בערוץ היוטיוב</a>
+                    <div class="image-link-container">
+                        <a href="https://www.youtube.com/@vadimostapenko5063" target="_blank">
+                            <img src="link_youtube.png" alt="YouTube Channel" class="full-width-image">
+                        </a>
                     </div>
                 </div>
             </div>
